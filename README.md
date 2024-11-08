@@ -23,11 +23,12 @@ Key Components and Features of the Project
 
 5.Video Recording and Audio Extraction:
                 The application also includes a recording feature to capture the presentation. Users can toggle recording with a keypress, saving the session as a video file.Once recording stops, the system extracts audio from the video file using moviepy.editor, enabling users to review both video and audio aspects of their presentation later.
-                
+
 6.Automated Slide Cleanup:
                 After the presentation ends, all slides are automatically deleted from the folder to keep the workspace organized.
 
-Technologies and Libraries Used
+Technologies and Libraries Used:
+
         OpenCV: For image processing, camera handling, and gesture visualization.
         CVZone: For easy hand tracking and gesture recognition through the HandTrackingModule.
         MoviePy: For video editing and audio extraction, enabling users to save their presentation as a video file.
