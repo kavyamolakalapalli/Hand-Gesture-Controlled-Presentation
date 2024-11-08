@@ -3,7 +3,8 @@
 In this, I developed a Hand Gesture-Controlled Presentation System that combines computer vision with user-friendly interaction. It leverages OpenCV, hand gesture recognition, and multimedia tools to allow users to control PowerPoint presentations through gestures, without needing a physical device like a mouse or remote.
 
 Key Components and Features of the Project
- 1 PowerPoint-to-Image Conversion:
+
+ 1.PowerPoint-to-Image Conversion:
                 The presentation begins by converting PowerPoint slides into PNG images. This is achieved using win32com.client, which opens the PowerPoint file, exports each slide as a PNG, and stores them in an output folder. This image format makes it easier for OpenCV to process and display each slide.
  2.Hand Gesture Detection:
                 Using OpenCV and cvzone's HandDetector module, the system detects the user's hand gestures via a webcam feed. The detector identifies specific hand gestures and maps them to presentation commands, like moving to the next slide, going back, drawing annotations, and undoing actions.
